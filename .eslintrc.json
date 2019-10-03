@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors"
+  ],
+  "env": {
+    "mocha": true,
+    "node": true,
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "rules": {
+    "no-console": "warn",
+    "semi": "error"
+  }
+}
